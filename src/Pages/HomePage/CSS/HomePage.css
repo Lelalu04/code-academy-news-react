@@ -1,0 +1,170 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Bw Nista Int, Arial, sans-serif;
+  line-height: 1.71;
+  font-size: 14px;
+}
+
+.wrap {
+  max-width: 1230px;
+  box-sizing: border-box;
+  padding: 0 30px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.button {
+  display: block;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  min-width: 170px;
+  text-decoration: none;
+  border-radius: 50px;
+  padding: 13px 30px 11px;
+  box-sizing: border-box;
+  background: #1200ff;
+  outline: 0;
+  line-height: 1.4;
+  border: 1px solid #1200ff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.main-container {
+  background-image: url(https://codeacademy.lt/wp-content/themes/codeacademy/dist/images/decoration-arrows.svg);
+  background-color: black;
+}
+.main-container .block-main .main-content {
+  padding-top: 171px;
+  padding-bottom: 386px;
+  max-width: 670px;
+  margin-left: 100px;
+}
+.main-container .block-main .main-content h1 {
+  font-size: 100px;
+  line-height: 1;
+  font-weight: 700;
+  font-family: Bw Gradual, Arial, sans-serif;
+  margin: 0 0 18px;
+  color: white;
+}
+.main-container .block-main .main-content .description {
+  font-size: 17px;
+  max-width: 370px;
+  color: white;
+}
+.main-container .portal {
+  margin: 0 100px;
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 139px;
+  justify-content: center;
+}
+.main-container .portal .portal-block {
+  width: 50%;
+  border-right: 1px solid #fff;
+  box-sizing: border-box;
+  padding-right: 60px;
+  margin-bottom: 0;
+}
+.main-container .portal .portal-block:first-child {
+  padding-left: 0;
+  padding-right: 203px;
+}
+.main-container .portal .portal-block:last-child {
+  padding-left: 115px;
+  border-right: 0px;
+}
+.main-container .portal .portal-block .portal-block-inner h2 {
+  margin: 0 0 17px;
+  font-size: 24px;
+  line-height: 1.33;
+  font-weight: 700;
+  font-family: Bw Nista Int, Arial, sans-serif;
+  color: white;
+}
+.main-container .portal .portal-block p {
+  color: white;
+}
+.main-container .portal .portal-block .portal-block-inner .button {
+  width: 200px;
+}
+
+.main-live {
+  background-color: rgb(255, 255, 255);
+  max-height: -webkit-fit-content;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+  padding-top: 115px;
+}
+.main-live h2 {
+  font-size: 72px;
+  color: black;
+  margin-bottom: 74px;
+}
+.main-live .description {
+  color: black;
+  margin-left: 200px;
+  margin-right: 510px;
+  font-size: 14px;
+}
+.main-live .numbers {
+  padding-left: 200px;
+  padding-right: 168px;
+  font-size: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  list-style: none;
+}
+.main-live .numbers li {
+  width: 50%;
+  margin-bottom: 88px;
+}
+.main-live .numbers li .number {
+  margin-bottom: 15px;
+}
+.main-live .numbers li .description {
+  width: 100%;
+  margin-left: 0;
+  font-weight: 700;
+}
+.main-live .numbers li .with-space {
+  margin-left: -10px;
+}
+.main-live .numbers li .small {
+  font-size: 80px;
+  margin-top: 34px;
+}
+
+@-webkit-keyframes cursor-blink {
+  0% {
+    opacity: 0;
+  }
+}
+
+@keyframes cursor-blink {
+  0% {
+    opacity: 0;
+  }
+}
+.numbers .number.countable:after {
+  content: "";
+  display: inline-block;
+  height: 4px;
+  width: 52px;
+  background: #7400ff;
+  margin-left: 3px;
+  -webkit-animation: cursor-blink 1s steps(2) infinite;
+          animation: cursor-blink 1s steps(2) infinite;
+}/*# sourceMappingURL=HomePage.css.map */
